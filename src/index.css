@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary: #013ebd;
+  --color-accent: #fcde3e;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
